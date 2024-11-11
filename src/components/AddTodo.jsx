@@ -87,7 +87,7 @@ const AddTodo = ({todos ,addTodo}) => {
         </div>
       </div>
 
-      <div className="flex justify-end w-[530px] mt-4 ">
+      <div className="flex justify-end items-center w-[530px] mt-4 ">
         <Link to="/">
           <button className="font-bold mr-4">Go back</button>
         </Link>
