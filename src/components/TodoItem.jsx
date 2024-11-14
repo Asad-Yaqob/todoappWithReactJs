@@ -8,7 +8,7 @@ const dataItem = ({ data, onPressedRemove }) => {
   return (
     <div
       key={data.id}
-      className="ps-4 pe-4 pt-2 pb-2 bg-white m-2 flex justify-between w-[700px] rounded"
+      className="ps-4 pe-4 pt-2 pb-2 bg-white m-2 flex justify-between w-full rounded"
     >
       <div>
         <p>{data.todo}</p>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { Bounce, Flip, Slide, ToastContainer, Zoom, toast } from "react-toastify";
+import {  Slide, ToastContainer,  toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 import TodoList from "./components/TodoList";
