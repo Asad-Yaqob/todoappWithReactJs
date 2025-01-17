@@ -34,11 +34,7 @@ const AddTodo = ({ todos, addTodo }) => {
       return;
     }
 
-    const isUnique = todos.find(
-      (t) =>
-        t.todo === todoRef.current.value ||
-        t.deadline === deadLineRef.current.value
-    );
+    const isUnique = todos.find((t) => t.todo === todoRef.current.value);
 
     if (isUnique) {
       setError("Todo already exists.");
